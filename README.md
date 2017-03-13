@@ -4,16 +4,9 @@ Search Yarn API in [https://github.com/yarnpkg/website/tree/master/lang/en/docs/
 
 ## Installation
 
-Open terminal at source code workflow
+[import-workflow-source-to-alfred.md](https://github.com/tung-dang/alfred-workflow-nodejs-next/blob/master/docs/import-workflow-source-to-alfred.md)
 
-1. Install `nvm` - node version manager in (https://github.com/creationix/nvm)
-2. Enter `nvm install` to download node version which is defined in `.nvmrc` (current version is 7.2)
-3. Enter `yarn install` to download node packages dependencies
-4. Import workflow into Alfred tool by one of following ways: 
-    1. Double-click on exported file in `exported-worfllow-file/YarnApiSearch.alfredworkflow`
-    2. Copy this repository folder into Alfred custom workflow store folder, ex: `/Users/<your-user-name>/Dropbox/app_backup/Alfred.alfredpreferences/workflows`
-
-## Usage in Alfred workflow
+## Usage
 
 ### Commands
 - `yarn`: Search Yarn API from [https://github.com/yarnpkg/website/contents/lang/en/docs/cli](https://github.com/yarnpkg/website/contents/lang/en/docs/cli).
