@@ -28,7 +28,6 @@ const commands = {
     workflow.onAction(commands.CLEAR_CACHE, () => storage.clear());
 
     workflow.onAction(commands.OPEN_LINK, (arg) => {
-        console.trace('==================arg: ', arg);
         if (typeof arg === 'string') {
             openLinkExecutor.execute(JSON.parse(arg));
         } else {
