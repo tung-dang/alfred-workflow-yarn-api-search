@@ -1,13 +1,13 @@
 {
-  "name": "alfred-wf-yarn",
+  "name": "alfred-wf-yarn-api-search",
   "main": "src/main.js",
-  "description": "Alfred workflow to search bookmarks in a simple formarted text file",
-  "version": "1.0.2",
+  "description": "Alfred workflow to search Yarn API",
+  "version": "1.0.0",
   "private": true,
   "bugs": {
-    "url": "https://github.com/tung-dang/alfred-workflow-go-links/issues"
+    "url": "https://github.com/tung-dang/alfred-workflow-yarn-api-search/issues"
   },
-  "homepage": "https://github.com/tung-dang/alfred-workflow-go-links",
+  "homepage": "https://github.com/tung-dang/alfred-workflow-yarn-api-search",
   "dependencies": {
     "alfred-workflow-nodejs-next": "^1.0.6",
     "octonode": "^0.7.10"
