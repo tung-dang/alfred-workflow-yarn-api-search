@@ -13,7 +13,7 @@
     "octonode": "^0.7.10"
   },
   "scripts": {
-    "export-wf": "tar -cv . | gzip > exported-workflow-file/YarnApiSearch.alfredworkflow"
+    "export-wf": "git archive --format zip --output ./exported-workflow-file/YarnApiSearch.alfredworkflow master"
   },
   "contributors": [
     {
