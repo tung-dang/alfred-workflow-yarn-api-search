@@ -13,7 +13,8 @@
     "octonode": "^0.7.10"
   },
   "scripts": {
-    "export-wf": "git archive --format zip --output ./exported-workflow-file/YarnApiSearch.alfredworkflow master"
+    "export-wf": "git archive --format zip --output ./exported-workflow-file/YarnApiSearch.alfredworkflow master",
+    "push": "yarn run export-wf && git add --all && git commit -m \"export workflow to file\" && git push --follow-tags"
   },
   "contributors": [
     {
