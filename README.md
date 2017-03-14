@@ -1,6 +1,6 @@
 ## Features
 
-Search Yarn API in [https://github.com/yarnpkg/website/contents/lang/en/docs/cli](https://github.com/yarnpkg/website/contents/lang/en/docs/cli). 
+Search Yarn API in [https://github.com/yarnpkg/website/tree/master/lang/en/docs/cli](https://github.com/yarnpkg/website/tree/master/lang/en/docs/cli). 
 
 ## Installation
 
