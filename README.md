@@ -17,3 +17,4 @@ Search Yarn API in [https://github.com/yarnpkg/website/tree/master/lang/en/docs/
 ## Development
 
 - `yarn run export-wf`: zip entire project and export to `exported-workflow-file/YarnApiSearch.alfredworklow` file 
+- `yarn run push-to-origin`: export --> commit --> push to github  
