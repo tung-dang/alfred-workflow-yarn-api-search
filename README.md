@@ -2,6 +2,8 @@
 
 Search Yarn API in [https://github.com/yarnpkg/website/tree/master/lang/en/docs/cli](https://github.com/yarnpkg/website/tree/master/lang/en/docs/cli). 
 
+![Demo](docs/demo_yarn_api_search.gif)
+
 ## Installation
 
 [import-workflow-source-to-alfred.md](https://github.com/tung-dang/alfred-workflow-nodejs-next/blob/master/docs/import-workflow-source-to-alfred.md)
@@ -17,4 +19,4 @@ Search Yarn API in [https://github.com/yarnpkg/website/tree/master/lang/en/docs/
 ## Development
 
 - `yarn run export-wf`: zip entire project and export to `exported-workflow-file/YarnApiSearch.alfredworklow` file 
-- `yarn run push-to-origin`: export --> commit --> push to github  
+- `yarn run export-push`: export --> commit --> push to Github  
