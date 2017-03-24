@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.atlassian.tungdang</string>
+	<string>com.tungdang.yarnjs</string>
 	<key>connections</key>
 	<dict>
 		<key>78DFBB49-56D4-40B6-9DE3-62EF266A19C7</key>
@@ -38,11 +38,11 @@
 	<key>createdby</key>
 	<string>Tung Dang</string>
 	<key>description</key>
-	<string>Yarn API Search</string>
+	<string>Yarn JS API Search</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Yarn</string>
+	<string>Yarn JS</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -98,9 +98,9 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Where do you want to go?</string>
+				<string>Search Yarn API</string>
 				<key>title</key>
-				<string>Where do you want to go?</string>
+				<string>Search Yarn API</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>

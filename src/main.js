@@ -13,6 +13,7 @@ const ghrepo = client.repo(YARN_REPO);
 const ONE_MINUTE = 1000 * 60;
 const ONE_HOUR = ONE_MINUTE * 60;
 const ONE_DAY = ONE_HOUR * 24;
+const ONE_WEEK = ONE_DAY * 7;
 
 const commands = {
     LOAD_ALL_LINKS: 'load_all_links',
@@ -53,7 +54,7 @@ function loadAllLinks(workflow, query) {
             return;
         }
 
-        storage.set('cache_links', res, ONE_DAY);
+        storage.set('cache_links', res, ONE_WEEK);
         generateFeedback(res, query, workflow);
     });
 }
